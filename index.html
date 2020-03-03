@@ -5,10 +5,9 @@
 <head>
     <meta charset="utf-8">
     <title>Emergence</title>
-<!--    <script type="text/javascript" src="js/howler.js"></script>-->
     <script type="text/javascript" src ="js/AssetManager.js"></script>
-<!--    <script type="text/javascript" src ="js/Entities/Animation.js"></script>-->
     <script type="text/javascript" src ="js/GameEngine.js"></script>
+    <script type="text/javascript" src ="js/Entity.js"></script>
     <script type="text/javascript" src ="js/Main.js"></script>
 </head>
 
@@ -20,9 +19,14 @@
 
 <body>
 <div id="container" style="text-align:center">
-    <canvas id="gameWorld" tabindex="1" width="720" height="720"
+    <canvas id="gameWorld" tabindex="1" width="800" height="800"
             style="border: 2px solid lightgreen; background: black"></canvas>
 
+</div>
+<div style="text-align:center">
+    <b>Circles of the same kind combine, but there is a price to pay for growing too large...<br/>
+    The debris from an explosion will adopt a new color once it settles.<br/>
+    ...Sometimes circles may reach a critical mass</b>
 </div>
 </body>
 

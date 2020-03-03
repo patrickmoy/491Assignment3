@@ -1,4 +1,10 @@
 /**
+ * Patrick Moy
+ * TCSS 491
+ * Assignment 2
+ */
+
+/**
  * Handles assets for simulation.
  */
 class AssetManager {

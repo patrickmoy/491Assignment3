@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>Emergence</title>
+    <script type="text/javascript" src="http://24.16.255.56:8888/socket.io/socket.io.js"></script>
     <script type="text/javascript" src ="js/AssetManager.js"></script>
     <script type="text/javascript" src ="js/GameEngine.js"></script>
     <script type="text/javascript" src ="js/Entity.js"></script>
@@ -27,6 +28,9 @@
     <b>Circles of the same kind combine, but there is a price to pay for growing too large...<br/>
     The debris from an explosion will adopt a new color once it settles.<br/>
     ...Sometimes circles may reach a critical mass</b>
+    <div id="label"></div>
+    <button id="save" type="button">Save</button>
+    <button id="load" type="button">Load</button>
 </div>
 </body>
 

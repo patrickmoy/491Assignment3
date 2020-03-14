@@ -1,7 +1,7 @@
 /**
  * Patrick Moy
  * TCSS 491
- * Assignment 2
+ * Assignment 3
  */
 
 function distance(a, b) {

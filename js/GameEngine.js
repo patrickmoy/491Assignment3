@@ -1,7 +1,7 @@
 /**
  * Patrick Moy
  * TCSS 491
- * Assignment 2
+ * Assignment 3
  */
 
 // Derived from Seth Ladd's game engine model/talk from Google I/O circa 2011.
